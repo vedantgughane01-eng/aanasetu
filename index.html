@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Annasetu: Bridge surplus food to people who need it</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;600&display=swap">
+<link rel="stylesheet" href="styles.css"></head><body>
+<nav id="nav"></nav><div id="alert"></div><div id="app"></div>
+<div id="modal"><div class="card"><h3 id="mt"></h3><div id="qr"></div><p class="mut" id="mc"></p><button class="btn" data-a="close">Close</button></div></div>
+<div id="mapm"><div class="card"><div class="row"><h3 id="mapt" style="margin:0"></h3><button class="btn sm alt" data-a="mclose">Close</button></div><iframe id="mapf" title="Google Map of the pickup route" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><div class="row"><span class="mut" id="mapi"></span><a id="mapl" class="btn sm" target="_blank" rel="noopener" style="text-decoration:none">Open in Google Maps</a></div></div></div>
+<div id="camm"><div class="card"><h3>Scan pickup QR</h3><video id="cam" playsinline muted style="width:100%;border-radius:10px;background:#000"></video><canvas id="camc" hidden></canvas><p class="mut">Point the camera at the donor's QR code.</p><button class="btn" data-a="camx">Cancel</button></div></div>
+<div id="toast"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<div id="okv"><div class="card"><svg width="72" height="72" viewBox="0 0 52 52" fill="none" stroke="#1d8a5a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><circle cx="26" cy="26" r="22"/><path id="ckp" d="M15 27l8 8 14-16" stroke-dasharray="40"/></svg><h3 id="okt" style="margin:8px 0 0"></h3></div></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/motion@11.11.13/dist/motion.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jsQR/1.4.0/jsQR.min.js"></script>
+<script src="config.js"></script>
+<script src="data.js"></script>
+<script src="hero3d.js"></script>
+<script src="app.js"></script></body></html>
